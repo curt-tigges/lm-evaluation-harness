@@ -5,6 +5,8 @@ import os
 import random
 from lm_eval import tasks
 from lm_eval.utils import join_iters
+import lxml.etree as etree
+
 
 EXAMPLE_DIVIDER = "!!@@##@@!! -- Example {i}\n"
 
